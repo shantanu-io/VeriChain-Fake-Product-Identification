@@ -1,0 +1,15 @@
+{
+  "name": "verichain-product-verification",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile": "truffle compile",
+    "deploy": "truffle migrate --reset --network development"
+  },
+  "devDependencies": {
+    "truffle": "^5.11.5"
+  },
+  "dependencies": {
+    "web3": "^4.16.0"
+  }
+}
